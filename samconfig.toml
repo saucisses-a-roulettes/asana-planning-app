@@ -1,0 +1,11 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "asana-planning-app"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1ccokk459i0gd"
+s3_prefix = "asana-planning-app"
+region = "eu-west-3"
+profile = "perso"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
